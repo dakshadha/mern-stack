@@ -1,0 +1,34 @@
+.p1{
+    position: sticky;
+    border: 10px solid plum;
+    top:30px;
+}
+.p2{
+    position:sticky;
+    border: 10px solid palevioletred;
+    top:20px;
+}
+.p3{
+    position: sticky;
+    border: 10px solid salmon;
+}
+.p4{
+    position: sticky;
+    border: 10px solid darkcyan;
+}
+.one{
+    background-color: bisque;
+    border: 2px solid peachpuff;
+    height: 200px;
+}
+.two{
+    background-color: pink;
+    border: 2px solid khaki;
+    height :200 px;
+}
+.three{
+    background-color: palevioletred ;
+    border: 2px solid darkcyan;
+    display:flex;
+    height: 200px;
+}
