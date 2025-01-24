@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--UNICONS-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--Fontawasome-->
+    <script src="https://kit.fontawesome.com/2efc16a506.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Navigation</title>
+</head>
+<body>
+    
+<!--============================================
+====================== HEADER =============
+=============================================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="uil uil-briefcase nav__icon"></i>Education
+                        </a>
+                    
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <section id="about" class="about">
+                <div class="container">
+                  <h2>About Me</h2>
+                  <div class="about-content">
+                    <img src="/images/profile.jpg" alt="My Profile" class="profile-img">
+                    <div class="about-text">
+                      <p>
+                        Hello! I am a 2nd-year engineering student pursuing a degree in Electronics and Communication Engineering at Sri Krishna College Of Engineering And Technology. 
+                        My passion for technology and problem-solving drives me to learn and explore the exciting world of programming and development.
+                      </p>
+                      <p>
+                        Over the past two years, I have built a solid foundation in core subjects like data structures, algorithms, and web development. 
+                        I enjoy creating projects that combine functionality with creativity, and I am constantly looking for opportunities to apply 
+                        my skills in real-world scenarios.
+                      </p>
+                      <p>
+                        Beyond academics, I am an active participant in hackathons, coding competitions, and tech events. 
+                        These experiences have not only enhanced my technical skills but also taught me teamwork, time management, and adaptability.
+                      </p>
+                      <p>
+                        When I'm not coding, I enjoy exploring new technologies, playing chess, and sharing knowledge with peers. 
+                        My goal is to become a proficient software developer and contribute to impactful projects in the tech industry.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+    <section id="skills" class="skills">
+        <div class="container">
+          <h2>My Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <img src="/images/html.jpg" alt="HTML" class="skill-img">
+              <h3>HTML</h3>
+              <p>Expert in creating semantic and structured web pages.</p>
+            </div>
+            <div class="skill-card">
+              <img src="/images/c++.jpg" alt="CSS" class="skill-img">
+              <h3>C++</h3>
+              <p>Proficient in designing responsive and visually appealing layouts.</p>
+            </div>
+            <div class="skill-card">
+              <img src="/images/dbms.jpg" alt="JavaScript" class="skill-img">
+              <h3>DBMS</h3>
+              <p>Skilled in adding interactivity and functionality to websites.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="education">
+        <div class="container">
+          <h2>Education</h2>
+          <div class="education-list">
+            <div class="education-item">
+              <h3>Bachelor Of Engineering In Electronics And Communication Engineering</h3>
+              <p>XYZ Univer</p>
+              <p><strong>Graduation Year:</strong> 2022</p>
+              <p>
+                Achieved a 3.8 GPA while completing coursework in web development, data structures, and algorithms. 
+                Worked on capstone projects focusing on building scalable web applications.
+              </p>
+            </div>
+            <div class="education-item">
+              <h3>High School Diploma</h3>
+              <p>ABC High School, City</p>
+              <p><strong>Graduation Year:</strong> 2018</p>
+              <p>
+                Graduated with honors, focusing on mathematics, computer science, and physics. 
+                Participated in coding competitions and technology clubs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+   
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to send me a message!</p>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Dakshadha</p>
+        </div>
+    </footer>
+</body>
+
+</html>
